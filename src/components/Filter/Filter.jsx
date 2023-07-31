@@ -12,10 +12,10 @@ const Filter = ({ filterValue, onFilter }) => {
 
   return (
     <>
-      <label htmlFor={filterId} className={css.label}>
-        Find Contacts by name
+      <label htmlFor={filterId} className={css.labelFilter}>
+        <span className={css.spanFilter}>Find Contacts by name</span>
         <input
-          className={css.input}
+          className={css.inputFilter}
           value={filterValue}
           onChange={handleChange}
           id={filterId}
