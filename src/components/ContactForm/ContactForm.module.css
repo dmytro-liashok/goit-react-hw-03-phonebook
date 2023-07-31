@@ -1,5 +1,6 @@
 .form {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 250px;
 }
@@ -46,6 +47,7 @@
 .btnSubmit:hover {
   --_p: 100%;
   transition: background-position 0.4s, background-size 0s;
+  color: #fff;
 }
 .btnSubmit:active {
   box-shadow: 0 0 9e9Q inset #0009;
@@ -58,9 +60,11 @@
   font-size: 20px;
   cursor: pointer;
   padding: 0.1em 0.6em;
-  font-weight: bold;
+  font-weight: 400;
   border: none;
   border-radius: 5px;
+  height: 55px;
+  padding: 10px;
 }
 
 p {
