@@ -35,7 +35,7 @@ class ContactForm extends Component {
       <form
         onSubmit={this.handleSubmit}
         className={css.form}
-        autocomplete="off"
+        autoComplete="off"
       >
         <label htmlFor={this.nameId} className={css.label}>
           Name
@@ -65,7 +65,9 @@ class ContactForm extends Component {
             required
           />
         </label>
-        <button type="submit" className={css.btnSubmit}>Add contact</button>
+        <button type="submit" className={css.btnSubmit}>
+          Add contact
+        </button>
       </form>
     );
   }

@@ -16,8 +16,8 @@ const ContactsList = ({ contacts, onDelete }) => {
               onDelete(contact.id);
             }}
           >
-            <span class={css.text}>Delete</span>
-            <span class={css.icon}>
+            <span className={css.text}>Delete</span>
+            <span className={css.icon}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
